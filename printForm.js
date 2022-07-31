@@ -48,7 +48,7 @@ async function populatePage(data) {
         total = total + parseInt(`total${i}`)
         if(!data.timesheet[i+1]) {i=6}
     }
-    document.getElementById('staffName').innerHTML = data.staffName;
+    document.getElementById('totalHours').innerHTML = total.toString();
     showPage()
 }
 
