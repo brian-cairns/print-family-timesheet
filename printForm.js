@@ -70,7 +70,7 @@ function showPage() {
 }
 
 let printToPDF = document.getElementById('printToPDF')
-printToPDF.addEventListener('click', (e) = {})
+printToPDF.addEventListener('click', (e) => {window.print()})
 
 let exit = document.getElementById('exit') 
 exit.addEventListener('click', (e) => {
